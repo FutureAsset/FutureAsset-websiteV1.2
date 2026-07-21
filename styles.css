@@ -201,3 +201,23 @@ body.modal-open {
     right: 14px;
   }
 }
+.privacy-check a {
+  color: var(--green2);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.footer-legal {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.footer-legal a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+}
+
+.footer-legal a:hover {
+  color: #fff;
+}
